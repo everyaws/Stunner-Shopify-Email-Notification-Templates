@@ -1,0 +1,66 @@
+.st_theme-body a.blink:visited {
+  text-decoration: none;
+}
+@media (max-width: 673px) {
+  .st_col-1 {
+    max-width: none !important;
+  }
+  .st_col-12 {
+    max-width: none !important;
+  }
+  .st_col-2 {
+    max-width: none !important;
+  }
+  .st_col-3 {
+    max-width: none !important;
+  }
+  .st_col-thumb {
+    max-width: none !important;
+  }
+  .st_col-description {
+    max-width: none !important;
+  }
+  .st_navigation-menu {
+    padding-top: 18px !important;
+  }
+  .st_email-start {
+    padding-top: 8px !important;
+  }
+  .st_email-end {
+    padding-bottom: 8px !important;
+  }
+  .st_navigation-menu {
+    text-align: center !important;
+  }
+  .st_email-end {
+    text-align: center !important;
+  }
+  .st_email-start .c-cell {
+    position: relative;
+  }
+  .st_col-nav {
+    width: auto !important; max-width: none !important; position: absolute; right: 8px; top: 2px;
+  }
+  .st_s-xs {
+    text-align: left !important;
+  }
+  .st_s-tc {
+    text-align: center !important;
+  }
+  .st_s-tc table.tl {
+    float: none !important; margin-left: auto !important; margin-right: auto !important;
+  }
+  .hide {
+    max-height: 0 !important; display: none !important; mso-hide: all !important; overflow: hidden !important; font-size: 0 !important;
+  }
+}
+
+
+@media (max-width: 632px) {
+	.select_st {
+		display: block;
+	}
+	#templates-l-st {
+		display: none;
+	}
+}

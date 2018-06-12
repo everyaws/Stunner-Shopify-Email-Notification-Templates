@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 60px 0;
+}
+.heading-s-m {padding-left: 20px; padding-right: 20px;}
+.d-of-t {padding-left: 20px; padding-right: 20px;}
+.c-ifrm {
+    margin: 30px auto auto;
+	width: 1140px;
+	max-width: 100%;
+	min-height: 638px;
+	background: #eceff1;
+	box-shadow: 0 1px 8px rgba(0,0,0,0.1), 0 1px 4px rgba(0,0,0,0.13);
+    -webkit-box-shadow: 0 1px 8px rgba(0,0,0,0.1), 0 1px 4px rgba(0,0,0,0.13);
+	border-radius: 2px;
+}
+.c-ifrm.active {
+    width: 530px;
+    max-width: 100%;
+}
+.main_st_list .st_list {
+    font-size: 14px;
+    color: #9E9E9E;
+    line-height: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.main_st_list .st_list:hover {
+	color: rgba(158,158,158,0.8);
+}
+.main_st_list .st_list.active {
+	color: #C2798D;
+}
+.main_st_list>li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 4px;
+    margin-top: 4px;
+}
+.main_st_list {
+    display: block;
+    margin: 0 auto .5rem;
+    text-align: center;
+}
+.c-ifrm .st-tm {
+	display: none;
+}
+.c-ifrm .st-tm.active {
+	display: block;
+}
+
+
+.select_st {
+    margin: auto;
+    width: 100%;
+    display: none;
+    text-align: center;
+    padding-bottom: 25px;
+}
+#selectBox {
+    font-size: 14px;
+    padding: 5px;
+    border: none;
+    background: #eee;
+    border-radius: 2px;
+}
+.top_bar_st {
+    background: #fff;
+    width: 100%;
+    height: 45px;
+}
+.win_btn {
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    float: left;
+    margin: auto 5px;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    left: 10px;
+}
+.tooltip_st {
+    width: 200px;
+    height: 25px;
+    background: #C2798D;
+    position: absolute;
+    top: -34px;
+    text-align: center;
+    font-size: 13px;
+    left: -11px;
+    border-radius: 2px;
+    padding: 3px;
+    color: #fff;
+}
+.tooltip_st:before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    bottom: -5px;
+    background: #C2798D;
+    left: 36px;
+    z-index: -1;
+}
+
+
+
+
+
+
+.theme_st_js .st_col-1 {
+max-width: none !important;
+}
+.theme_st_js .st_col-12 {
+max-width: none !important;
+}
+.theme_st_js .st_col-2 {
+max-width: none !important;
+}
+.theme_st_js .st_col-3 {
+max-width: none !important;
+}
+.theme_st_js .st_col-thumb {
+max-width: none !important;
+}
+.theme_st_js .st_col-description {
+max-width: none !important;
+}
+.theme_st_js .st_navigation-menu {
+padding-top: 18px !important;
+}
+.theme_st_js .st_email-start {
+padding-top: 8px !important;
+}
+.theme_st_js .st_email-end {
+padding-bottom: 8px !important;
+}
+.theme_st_js .st_navigation-menu {
+text-align: center !important;
+}
+.theme_st_js .st_email-end {
+text-align: center !important;
+}
+.theme_st_js .st_email-start .c-cell {
+position: relative;
+}
+.theme_st_js .st_col-nav {
+width: auto !important; max-width: none !important; position: absolute; right: 8px; top: 2px;
+}
+.theme_st_js .st_s-xs {
+text-align: left !important;
+}
+.theme_st_js .st_s-tc {
+text-align: center !important;
+}
+.theme_st_js .st_s-tc table.tl {
+float: none !important; margin-left: auto !important; margin-right: auto !important;
+}
+.theme_st_js .hide {
+max-height: 0 !important; display: none !important; mso-hide: all !important; overflow: hidden !important; font-size: 0 !important;
+}
+
+
+a, a:hover {
+    text-decoration: none;
+}
+
+section .title-container .section_s_title {
+    color: #666666;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 20px auto 20px;
+    padding: 0 10px;
+}
+section .title-container h4 {
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #C2798D;
+    margin-bottom: 10px;
+    text-align: center;
+}
+section .title-container .section-title {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 0;
+    text-align: center;
+}
