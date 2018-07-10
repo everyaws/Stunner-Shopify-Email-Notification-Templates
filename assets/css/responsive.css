@@ -1,7 +1,7 @@
 .st_theme-body a.blink:visited {
   text-decoration: none;
 }
-@media (max-width: 673px) {
+@media (max-width: 688px) {
   .st_col-1 {
     max-width: none !important;
   }
